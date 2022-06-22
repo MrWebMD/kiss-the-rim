@@ -26,7 +26,7 @@ const Navigation = () => {
 
   const navLinks = [
     { name: "Home", path: "/", icon: faHome },
-    { name: "Github", path: "https://github.com/MrWebMD", icon: faGithub },
+    { name: "Github", path: "https://github.com/MrWebMD/kiss-the-rim", icon: faGithub },
     {
       name: "API",
       path: "https://www.balldontlie.io/#introduction",
