@@ -1,0 +1,27 @@
+.playerCard {
+  flex-basis: 33%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  &__wrapper {
+    background-color:#eeeeee;
+    width:80%;
+    margin:1rem;
+  }
+  &__banner {
+    font-family: "Bebas Neue", cursive;
+    background-image: url("/images/hoop-small.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:8rem;
+    display:flex;
+    align-items:flex-end;
+    color:white;
+    font-size:2rem;
+    padding:0.5rem;
+  }
+  &__table {
+    padding:1rem;
+    width:100%;
+  }
+}
